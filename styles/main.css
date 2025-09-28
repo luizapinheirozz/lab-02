@@ -1,0 +1,11 @@
+@import "./utils/global.css";
+@import "./utils/variables.css";
+@import "./utils/typograph.css";
+@import "./utils/components.css";
+
+@import "./blocks/header.css";
+@import "./blocks/home.css";
+@import "./blocks/guests.css";
+@import "./blocks/schedule.css";
+@import "./blocks/curiosities.css";
+@import "./blocks/footer.css";

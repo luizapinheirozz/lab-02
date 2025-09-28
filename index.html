@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Festa na Fenda do Biquíni</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+
+  <body>
+    <header class="header container">
+      <img
+        src="./assets/images/spongebob-logo.png"
+        alt="Logo Bob Esponja"
+        class="header__logo"
+      />
+
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#guests" class="header__link">Convidados</a>
+          </li>
+
+          <li class="header__item">
+            <a href="#schedule" class="header__link">Programação</a>
+          </li>
+
+          <li class="header__item">
+            <a href="#curiosities" class="header__link">Curiosidades</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main container">
+      <section class="main__invite">
+        <span class="main__pretitle">Você foi convidado para</span>
+        <h1 class="main__title">
+          A maior <span class="detail--p2">festa</span> que a
+          <span class="detail--p3">fenda</span> do
+          <span class="detail--p4">biquini</span> ja viu
+        </h1>
+
+        <div class="main__links">
+          <a href="#" class="btn-primary btn-primary--p1"
+            >Garanta seu ingresso</a
+          >
+          <a href="#schedule" class="btn-secondary btn-secondary--p1"
+            >Ver programação</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <section class="guests container" id="guests">
+      <h2 class="guests__title">
+        <span class="detail--p2">Convidados</span> de Honra
+      </h2>
+
+      <div class="guests__slider">
+        <div class="guests__button guests__button--left"></div>
+
+        <div class="guests__cards">
+          <div class="guests__card guests__active">
+            <img
+              src="./assets/images/bob-esponja.png"
+              alt=""
+              class="guests__image"
+            />
+
+            <div class="guests__info">
+              <h3 class="guests__name">Bob Esponja</h3>
+              <p class="guests__text">
+                O anfitrião mais animado da Fenda do Biquíni! Sempre com um
+                sorriso no rosto, o Bob é aquele amigo que anima qualquer lugar.
+                <span class="guests__text--extra">
+                  Ele é o tipo de pessoa que transforma até as situações mais
+                simples em momentos inesquecíveis.
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <div class="guests__card">
+            <img
+              src="./assets/images/patrick-estrela.png"
+              alt=""
+              class="guests__image guests__image--patrick"
+            />
+
+            <div class="guests__info">
+              <h3 class="guests__name">Patrick Estrela</h3>
+              <p class="guests__text">
+                Patrick traz aquele toque de descontração e vai fazer todo mundo
+                rir com suas ideias únicas. <span class="guests__text--extra">Ingênuo e cheio de boas intenções,
+                ele é aquele amigo que pode não ter as melhores ideias, mas que
+                nunca te deixa sozinho.</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="guests__card">
+            <img
+              src="./assets/images/lula-molusco.png"
+              alt=""
+              class="guests__image"
+            />
+
+            <div class="guests__info">
+              <h3 class="guests__name">Lula Molusco</h3>
+              <p class="guests__text">
+                Um pouco rabugento, mas cheio de estilo. O Lula Molusco é o tipo
+                de convidado que prefere observar a festa de longe… <span class="guests__text--extra">até que
+                alguém o convença a mostrar seu lado mais divertido.</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="guests__card">
+            <img
+              src="./assets/images/seu-sirigueijo.png"
+              alt=""
+              class="guests__image"
+            />
+
+            <div class="guests__info">
+              <h3 class="guests__name">Seu Sirigueijo</h3>
+              <p class="guests__text">
+                Sempre preocupado com seus negócios, o Sr. Sirigueijo adora
+                contar histórias do Siri Cascudo. <span class="guests__text--extra">Mesmo com seu jeito econômico,
+                ele sabe aproveitar uma boa festa quando está entre amigos.</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="guests__button guests__button--right"></div>
+      </div>
+    </section>
+
+    <section class="schedule container" id="schedule">
+      <h2 class="schedule__title">
+        <span class="detail--p3">Agenda</span> da festa
+      </h2>
+
+      <div class="schedule__event">
+        <p class="schedule__description">
+          A maior festa da fenda do biquíni vai acontecer no dia 28/09/2025, das
+          19:00 às 04:00, com inúmeras atividades para você curtir muito!
+        </p>
+
+        <button id="btn-schedule" class="btn-secondary btn-secondary--p3">Saiba mais</button>
+      </div>
+
+      <div class="schedule__hidden" id="schedule-hidden">
+        <ul class="schedule__hidden-list">
+          <li class="schedule__hidden-item">
+            <span class="schedule__hidden-time">18:00</span>
+
+            <div>
+              <h3 class="schedule__hidden-subtitle">Abertura dos Portões</h3>
+              <p class="schedule__hidden-text">
+                Recepção com bolhas de sabão, decoração submarina e aquele
+                cheirinho irresistível de Hambúrguer de Siri no ar.
+              </p>
+            </div>
+          </li>
+
+          <li class="schedule__hidden-item">
+            <span class="schedule__hidden-time">18:30</span>
+
+            <div>
+              <h3 class="schedule__hidden-subtitle">
+                Boas-vindas com Bob Esponja
+              </h3>
+              <p class="schedule__hidden-text">
+                O anfitrião mais animado do oceano dá início à festa com muita
+                energia e risadas.
+              </p>
+            </div>
+          </li>
+
+          <li class="schedule__hidden-item">
+            <span class="schedule__hidden-time">19:00</span>
+
+            <div>
+              <h3 class="schedule__hidden-subtitle">
+                Desafio das Estrelas com Patrick
+              </h3>
+              <p class="schedule__hidden-text">
+                Um concurso de dança maluco com direito a passos improvisados e
+                prêmios divertidos.
+              </p>
+            </div>
+          </li>
+
+          <li class="schedule__hidden-item">
+            <span class="schedule__hidden-time">20:00</span>
+
+            <div>
+              <h3 class="schedule__hidden-subtitle">
+                Show de Clarinete com Lula Molusco
+              </h3>
+              <p class="schedule__hidden-text">
+                Ele garante que vai tocar bem desta vez (mas a diversão é ver o
+                resultado).
+              </p>
+            </div>
+          </li>
+
+          <li class="schedule__hidden-item">
+            <span class="schedule__hidden-time">21:00</span>
+
+            <div>
+              <h3 class="schedule__hidden-subtitle">
+                Caça ao Tesouro do Sr. Sirigueijo
+              </h3>
+              <p class="schedule__hidden-text">
+                Uma brincadeira interativa para encontrar o “baú dourado”
+                escondido na festa.
+              </p>
+            </div>
+          </li>
+
+          <li class="schedule__hidden-item">
+            <span class="schedule__hidden-time">22:00</span>
+
+            <div>
+              <h3 class="schedule__hidden-subtitle">
+                Concurso de Melhor Hambúrguer de Siri
+              </h3>
+              <p class="schedule__hidden-text">
+                Quem consegue montar o hambúrguer mais criativo da festa?
+              </p>
+            </div>
+          </li>
+
+          <li class="schedule__hidden-item">
+            <span class="schedule__hidden-time">23:00</span>
+            
+            <div>
+              <h3 class="schedule__hidden-subtitle">Balada Submarina</h3>
+            <p class="schedule__hidden-text">
+              DJ Lula Molusco (mesmo contrariado) abre a pista com músicas da
+              Fenda do Biquíni e sucessos para dançar até cair.
+            </p>
+          </li>
+            </div>
+        </ul>
+      </div>
+    </section>
+
+    <section class="curiosities container" id="curiosities">
+      <h2 class="curiosities__title">
+        <span class="detail--p4">Curiosidades</span> do siri cascudo
+      </h2>
+
+      <ul class="curiosities__list">
+        <li class="curiosities__item">
+          <h3 class="curiosities__subtitle">01. O Gari mia como um gato</h3>
+          <p class="curiosities__text">Apesar de ser um caracol, o Gary faz “miau” como se fosse um gato. E detalhe: ele é considerado o animal de estimação mais inteligente da Fenda do Biquíni.</p>
+        </li>
+
+        <li class="curiosities__item">
+          <h3 class="curiosities__subtitle">02. O motivo da casa do Bob Esponja ser um Abacaxi</h3>
+          <p class="curiosities__text">Stephen Hillenburg, criador do desenho, achava que o cheiro do abacaxi era associado à ideia de algo tropical e alegre, combinando com a personalidade do Bob.</p>
+        </li>
+
+        <li class="curiosities__item">
+          <h3 class="curiosities__subtitle">03. O desenho quase se chamou SpongeBoy</h3>
+          <p class="curiosities__text">Antes de estrear, o nome planejado era SpongeBoy Ahoy!, mas descobriram que já existia uma marca registrada com esse nome. Assim nasceu Bob Esponja Calça Quadrada (SpongeBob SquarePants).</p>
+        </li>
+
+        <li class="curiosities__item">
+          <h3 class="curiosities__subtitle">04. O Patrick foi inspirado em uma pedra</h3>
+          <p class="curiosities__text">A casa do Patrick é literalmente uma pedra em cima dele. O criador disse que se inspirou em como estrelas-do-mar reais passam muito tempo imóveis em rochas no fundo do mar.</p>
+        </li>
+
+        <li class="curiosities__item">
+          <h3 class="curiosities__subtitle">05. O Lula Molusco nunca foi uma lula</h3>
+          <p class="curiosities__text">Mesmo tendo seis tentáculos no desenho (em vez de oito), ele na verdade é um polvo, não uma lula. Isso já gerou muita confusão entre os fãs.</p>
+        </li>
+
+        <li class="curiosities__item">
+          <h3 class="curiosities__subtitle">06. O Siri Cascudo foi inspirado em uma armadilha</h3>
+          <p class="curiosities__text">O formato do restaurante é baseado em armadilhas de lagostas usadas por pescadores no fundo do mar.</p>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="footer container">
+      <h2 class="footer__title">
+        Te aguardamos la!!
+      </h2>
+
+      <div class="footer__links">
+        <a href="#" class="btn-primary btn-primary--p2">Garanta seu ingresso</a>
+        <a href="#schedule" class="btn-secondary btn-secondary--p2">Ver programação</a>
+      </div>
+
+      <p class="footer__copy">
+        Desenvolvido por: Luiza Pinheiro
+      </p>
+    </footer>
+
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>

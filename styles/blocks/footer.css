@@ -1,0 +1,35 @@
+.footer {
+  padding-bottom: 40px;
+}
+
+.footer__title {
+  color: var(--p2-color);
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 50px;
+}
+
+.footer__copy {
+  margin-top: 120px;
+  text-align: center;
+  color: var(--s2-color);
+  font-size: 18px;
+  line-height: 137%;
+  letter-spacing: 0.54px;
+}
+
+@media (max-width: 480px) {
+  .footer__links {
+    flex-direction: column;
+    justify-self: center;
+  }
+
+  .footer__copy {
+    font-size: 14px;
+    margin-top: 60px;
+  }
+}

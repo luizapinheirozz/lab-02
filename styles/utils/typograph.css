@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Spongeboy";
+  src: url(../../assets/fonts/spongeboy.ttf) format(truetype);
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Spongeboy";
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+@media (max-width: 991px) {
+  h1 {
+    font-size: 56px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+}
