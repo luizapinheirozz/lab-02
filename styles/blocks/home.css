@@ -61,6 +61,8 @@
   display: flex;
   justify-content: center;
   gap: 16px;
+  width: 100%;
+  padding-inline: 20px;
 }
 
 @media (max-width: 1320px) {
@@ -73,6 +75,7 @@
 @media (max-width: 991px) {
   .main__pretitle {
     font-size: 20px;
+    margin-left: 20px;
   }
 
   .main__invite {

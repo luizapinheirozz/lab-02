@@ -1,5 +1,6 @@
 .schedule {
   padding-bottom: 160px;
+  padding-inline: 35px;
 }
 
 .schedule__event {
