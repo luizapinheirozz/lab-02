@@ -49,5 +49,6 @@
 
   .curiosities__text {
     margin: auto;
+    max-width: 100%;
   }
 }
