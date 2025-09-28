@@ -11,6 +11,7 @@
   justify-content: center;
   gap: 16px;
   margin-top: 50px;
+  width: 100%;
 }
 
 .footer__copy {
